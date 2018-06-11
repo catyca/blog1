@@ -38,6 +38,43 @@
     .copyright{
         padding:0 15 px;
     }
+    .product-card-wrap{
+padding:15px;
+width:25%;
+    }
+.product-card{
+min-width:255px;
+text-align:center;
+border-radius:10px;
+background-color:white;
+box-shadow:0px 10px 30px 0px rgba(212,150,255,0.2)
+}
+.product-card_image-wrap{
+padding:40px;
+border-bottom:1px solid #eee;
+}
+.product-card_details{
+padding:20px;
+background-color:#f9f9ff;
+}
+h4{
+font-size:18px;
+}
+.product-card_button{ <!--задаём свойства у кнопки-->
+display:inline-block;
+text-decoration: none;
+margin-top: 10px;
+background:#fff;
+color:#222 !important;
+font-weight:600;
+line-height:42px;
+padding-left:30px;
+padding-right:30px;
+border:1px solid transparent;
+cursor:pointer;
+position:relative;
+text-transform:uppercase;
+}
     </style>
 </head>
 <body>
@@ -62,7 +99,26 @@
 
     </div>
 </header>
-<main class="main"></main>
+<main class="main">
+    <section class="section section_main">
+        <div class="container">
+        <div class="section_header"><h1><Featured Robotics to Show></h1>
+        <p>Who are in extremely love width eco friendly system.</p></div>
+        <div class="product-card-container">
+        <div class="product-card-wrap">
+        <div class="product-card">
+        <div class="product-card_image-wrap"><img class="product-card_image" src="img/милашка.jpg"></div>
+        <div class="product-card_details">
+        <h4 class="product-card_header">The Upper Eye</h4>
+        <p class="product-card_text">Who are in extremely love width eco friendly system</p>
+        <a class="product-card_button" href="#">View Details</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+</main>
 <footer class="footer">
     <div class="footer-block footer-block_last">
         <div class="copyright">На улице светит солнышко</div>
