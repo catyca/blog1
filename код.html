@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Всплывание событий</title>
+    </head>
+    <body onclick="alert('Вы кликнули по BODY');">
+    <h1>BODY</h1>
+    <BODY>
+        <div onclick="alert('Внешний DIV');" style="border-style:solid;width:330;height:200;">
+Привет Вася!
+<div onclick="alert('Вложенный div');" style="border-style:solid;width:180;height:90;">
+DIV<br>
+<span onclick="alert('Вложенный little');" style="border-style:solid;width:80;height:50;">
+SPAN
+</span>
+</div>
+</div>
+    </BODY>
+
+    </body>
+</html>

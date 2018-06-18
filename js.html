@@ -1,0 +1,25 @@
+<script>
+    function Oklad (zarplata) {
+        if (zarplata<100000){
+        var  oklad = zarplata-(zarplata*0.35);
+        console.log(oklad);
+        }
+        else{
+            var oklad = zarplata - (zarplata*0.45);
+        }
+        return oklad;
+    }
+var zarplata = prompt ('Введи сумму для расчёта оклада', 100);
+alert ('Вот на что придётся жить в ближайший месяц' + Oklad(zarplata));
+
+var ok = confirm('Хочешь ещё порадоваться жизни?');
+while (ok) {
+    zarplata = prompt ('Введи сумму для расчёта оклада', 100);
+    alert('Вот на что придётся жить в ближайший месяц' + Oklad(zarplata));
+    var ok = confirm('Хочешь ещё порадоваться жизни?');
+
+}
+
+
+
+    </script>
